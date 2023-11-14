@@ -1,14 +1,16 @@
-import './App.css';
 import { Link, Route, Routes } from 'react-router-dom';
-import Home from './Pages/Home';
-import Dashboard from './Pages/Dashboard';
-import Projects from './Pages/Projects';
+import './App.css';
+import Home from './Pages/Home'
+import Login from './Pages/Login'
+import Register from './Pages/Register'
+import Dashboard from './Pages/Dashboard'
+import Projects from './Pages/Projects'
 import Footer from './Components/Footer';
 import Auth from './Components/Auth';
 
 function App() {
   return (
-    <><div>
+    <div>
       <Routes>
         <Route path='/' element={<Home/>}></Route>
         <Route path='/login' element={<Auth/>}></Route>
@@ -18,7 +20,6 @@ function App() {
       </Routes>
       <Footer/>
     </div>
-    </>
   );
 }
 

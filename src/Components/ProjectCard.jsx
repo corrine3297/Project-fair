@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Card, Col, Modal, Row } from 'react-bootstrap'
-import projectImage from '../Assets/movieapp.jpeg'
+import projectImage from '../Assets/movieapp.jpg'
 
 
 
